@@ -1,0 +1,14 @@
+from ast import Return
+
+
+def grab_max_min(list):
+    a = max(list)    
+    b = min(list)     
+    return a,b
+
+nums = [8,9,90,6]
+data = grab_max_min(nums)
+
+high = data[0]
+smallest = data[-1]
+print(high,smallest)
