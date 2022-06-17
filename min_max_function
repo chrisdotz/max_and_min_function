@@ -1,6 +1,3 @@
-from ast import Return
-
-
 def grab_max_min(list):
     a = max(list)    
     b = min(list)     
